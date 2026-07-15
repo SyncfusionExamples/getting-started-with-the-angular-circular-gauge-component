@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CircularGaugeModule } from '@syncfusion/ej2-angular-circulargauge';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CircularGaugeModule],
+  imports: [CircularGaugeModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
